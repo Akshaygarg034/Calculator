@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+.container{
+    text-align: center;
+    margin-top:23px
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    font-family: 'Audiowide', cursive !important;
+    font-size: 36px !important;
+    position: relative;
+    top: 30px;
+    border-radius: 9px;
+    background: #bef0a7;
+    font-size: 34px;
+    height: 89px;
+    width: 437px;
+}
+
+button{
+    font-size: 40px;
+    background: #978fa0;
+    width: 89px;
+    height: 43px;
+    margin: 6px;
+}
+.btn{
+    margin: 8px;
+}
+.btn-dark{
+    font-size: 20px !important;
+}
+.outer-container {
+    background: url(calculator.jpg);
+    background-size: 100%;
+    width: 37%;
+    height: 473px;
+    margin: 0px auto;
+}
+.btn-container{
+    position: relative;
+    background: #000000;
+    top: 61px;
+    height: 316px;
+    width: 102.2%;
+    margin-left: -5.5px;
+}
+
+.calculator{ 
+    display: inline-block;
+    
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold !important;
+    margin: 30px !important;
+}
+
+@media only screen and (max-width: 400px){
+    .outer-container {
+        width: 131%;
+        height: 57vh;
+        margin: 0px -15.5%;
+        transform: scale(0.8);
+    }
+}
